@@ -1,5 +1,7 @@
 # F29LP
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cr2007/F29LP)
+
 ## Installation on Your Computer
 It is strongly recommended to install the course material via Docker. 
 
