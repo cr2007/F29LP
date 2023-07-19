@@ -1,31 +1,32 @@
 {
-    "image":"mcr.microsoft.com/devcontainers/universal:2",
-    
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                // IntelliCode
-                "VisualStudioExptTeam.vscodeintellicode", // IntelliCode
-                "VisualStudioExptTeam.intellicode-api-usage-examples",
-                
-                "eamodio.gitlens", // GitLens
-                "mhutchie.git-graph",
-                "ms-azuretools.vscode-docker", // Docker
-                "ms-vscode-remote.remote-containers",
-                // Jupyter Notebooks
-                "ms-toolsai.jupyter",
-                "ms-toolsai.vscode-jupyter-cell-tags",
-                "ms-toolsai.jupyter-keymap",
-                "ms-toolsai.jupyter-renderers",
-                "ms-toolsai.vscode-jupyter-slideshow",
-                "ms-python.python",
-                // Markdown
-                "yzhang.markdown-all-in-one",
-                "bierner.markdown-preview-github-styles",
-                // Icon theme
-                "vscode-icons-team.vscode-icons",
-                "sam-the-programmer.jupyter-theme"
-            ],
-    }
-}
-// {"image": "../docker/dockerfile"}
+	// "image":"mcr.microsoft.com/devcontainers/universal:2",
+	"build": {
+		"dockerfile": "dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				// IntelliCode
+				"VisualStudioExptTeam.vscodeintellicode", // IntelliCode
+				"VisualStudioExptTeam.intellicode-api-usage-examples",
+				"eamodio.gitlens", // GitLens
+				"mhutchie.git-graph",
+				"ms-azuretools.vscode-docker", // Docker
+				"ms-vscode-remote.remote-containers",
+				// Jupyter Notebooks
+				"ms-toolsai.jupyter",
+				"ms-toolsai.vscode-jupyter-cell-tags",
+				"ms-toolsai.jupyter-keymap",
+				"ms-toolsai.jupyter-renderers",
+				"ms-toolsai.vscode-jupyter-slideshow",
+				"ms-python.python",
+				// Markdown
+				"yzhang.markdown-all-in-one",
+				"bierner.markdown-preview-github-styles",
+				// Icon theme
+				"vscode-icons-team.vscode-icons",
+				"sam-the-programmer.jupyter-theme"
+			],
+		}
+	}
+	// {"image": "../docker/dockerfile"}
