@@ -26,15 +26,6 @@
                 "vscode-icons-team.vscode-icons",
                 "sam-the-programmer.jupyter-theme"
             ],
-            
-            "settings": {
-                "workbench.colorTheme": "Jupyter Theme Dark",
-                "workbench.iconTheme": "vscode-icons",
-                "editor.bracketPairColorization.enabled": true
-                
-
-            }
-        }
     }
 }
 // {"image": "../docker/dockerfile"}
